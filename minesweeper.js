@@ -16,7 +16,7 @@ const generateBombBoard = (numberOfRows, numberOfColumns, numberOfBombs) => {
 
   for (let rowIndex = 0; rowIndex < numberOfRows; rowIndex++) {
     const row =[];
-    for (let columnIndex = 0; columnIndex < numberOfColumnsl; columnIndex++){
+    for (let columnIndex = 0; columnIndex < numberOfColumns; columnIndex++){
       row.push(' ');
     }
     board.push(row);
