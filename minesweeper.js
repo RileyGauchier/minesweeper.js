@@ -40,7 +40,7 @@ const printBoard = board => {
 
 let playerBoard = generatePlayerBoard(3, 3);
 let bombBoard = generateBombBoard(3,3,3);
-console.log('Player Board);
+console.log('Player Board');
 printBoard(playerBoard);
 console.log('Bomb Board');
 printBoard(bombBoard);
